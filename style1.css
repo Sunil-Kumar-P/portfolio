@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    justify-content: space-evenly;
+}
+
+html {
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+/* header */
+
+header {
+    height: 4.5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    background-color: black;
+}
+
+nav {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2rem;
+    font-family: 'Tourney', cursive;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ccebee;
+}
+
+/* main */
+.btn-download {
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: rgb(54, 206, 80);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0,0.2);
+    
+}
+
+.btn:hover {
+    color: rgb(226, 94, 17);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0,0.24);
+}
+
+.full-page {
+    width: 100%;
+    height: 100vh;
+    background-color: steelblue;
+    padding: 5rem 0.8rem;
+    font-color: gray;
+}
+
+.second-page-heading {
+    font-size: 3rem;
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    padding: 50px;
+}
+
+article p {
+    width: 80%;
+    margin: auto;
+    line-height: 2;
+    text-align: center;
+}
+
+.hero-third-page {
+    background-color: steelblue;
+    padding: 50px;
+    margin: 0 auto;
+    height: 100%;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+h1 {
+    color: rgba(240, 123, 13, 0.76);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(22, 252, 22);
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.school, .college {
+    border-style: solid;
+    border-color: greenyellow;
+    border-radius: 2rem;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    height: 5%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    background-color: red;
+    padding-left: 50px;
+}
+
+footer h3 {
+    color: rgb(236, 149, 34);
+}
