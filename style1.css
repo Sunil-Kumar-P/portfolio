@@ -5,6 +5,7 @@
     font-family: 'Roboto', sans-serif;
     color: black;
     justify-content: space-evenly;
+   
 }
 
 html {
@@ -78,7 +79,7 @@ a {
     padding: 50px;
 }
 
-article p {
+section p {
     width: 80%;
     margin: auto;
     line-height: 2;
@@ -93,15 +94,28 @@ article p {
     padding-bottom: 100px;
     align-items: center;
 }
-
-h1 {
-    color: rgba(240, 123, 13, 0.76);
-    text-align: center;
+.details {
+    font-size: 3rem;
+    color :rgb(217, 252, 22)
 }
 
-h2 {
-    color: rgb(22, 252, 22);
+.detail {
+    border-style: solid;
+    border-color: black;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+.head {
+    color: rgba(240, 123, 13, 0.76);
     text-align: center;
+    font-size: 2rem;
+}
+
+.sub {
+    color: rgb(45, 22, 252);
+    text-align: center;
+    font-size: 1.75rem;
 }
 
 img {
@@ -115,9 +129,20 @@ img {
 }
 .school, .college {
     border-style: solid;
-    border-color: greenyellow;
-    border-radius: 2rem;
+    border-color: rgb(24, 34, 9);
+    border-radius: 0.5rem;
 }
+
+.eductaion {
+    background-color: burlywood;
+}
+
+.ed {
+    text-align: center;
+    color: rgb(255, 0, 13);
+    font-size: 2rem;
+}
+
 
 /* footer */
 
