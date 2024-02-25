@@ -1,0 +1,54 @@
+.profile-image {
+    max-width: 65%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    border: 2px solid #333; 
+    /* border-radius: 100%;  */
+  }
+
+  /* Custom section styles */
+  #about {
+    background-color: #f8f9fa; /* Light gray */
+    text-align: justify; /* Justify text */
+  }
+
+  #education {
+    background-color: #e9ecef; /* Light gray */
+    text-align: justify; /* Justify text */
+  }
+
+  #skills {
+    background-color: #f8f9fa; /* Light gray */
+    text-align: justify; /* Justify text */
+  }
+
+  #projects {
+    background-color: #e9ecef; /* Light gray */
+    text-align: justify; /* Justify text */
+  }
+
+  #internships {
+    background-color: #f8f9fa; /* Light gray */
+    text-align: justify; /* Justify text */
+  }
+
+  #activities {
+    background-color: #e9ecef; /* Light gray */
+    text-align: justify; /* Justify text */
+  }
+
+  #achievements {
+    background-color: #f8f9fa; /* Light gray */
+    text-align: justify; /* Justify text */
+  }
+
+  #personal-details {
+    background-color: #e9ecef; /* Light gray */
+    text-align: justify; /* Justify text */
+  }
+
+  #reference {
+    background-color: #f8f9fa; /* Light gray */
+    text-align: justify; /* Justify text */
+  }
